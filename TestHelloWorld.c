@@ -40,9 +40,12 @@ int main()
 			printf("Marchand dit : Au revoir !\n");
 			return 0;
 		}
-	else
+	else if (nbKayak == 1)
 		{	
 			printf ("\n\n\nMarchand dit : Voici un Kayak l'ami \n");
+			printf("*\n**\n");
+			printf("''Argent acutellement Disponible : %d gold''\n",argentJoueur);
+			printf("**\n*\n");
 		}
 	printf ("Vous : Merci ! \n");
     return 0;
