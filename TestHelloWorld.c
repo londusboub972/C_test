@@ -37,6 +37,7 @@ int main()
 			printf("*\n**\n");
 			printf("''Argent acutellement Disponible : %d gold''\n",argentJoueur);
 			printf("**\n*\n");
+			printf("Marchand dit : Au revoir !\n");
 			return 0;
 		}
 	else
