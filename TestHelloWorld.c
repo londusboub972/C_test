@@ -44,7 +44,7 @@ int main()
 		{	
 			printf ("\n\n\nMarchand dit : Voici un Kayak l'ami \n");
 			printf("*\n**\n");
-			printf("''Argent acutellement Disponible : %d gold''\n",argentJoueur);
+			printf("''Argent acutellement Disponible : %d gold''\n",argentJoueur - prixKayak);
 			printf("**\n*\n");
 		}
 	printf ("Vous : Merci ! \n");
